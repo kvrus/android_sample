@@ -1,0 +1,95 @@
+[
+
+    {
+          "experimentName":"ShowPromoExperiment",
+          "variants":[
+            {
+                      "experimentVariantName":"A_EXPERIMENT",
+                      "experimentVariantDescription":"a variant",
+                      "experimentVariantConfigValue":"A",
+                      "experimentValues":[
+                      {
+                         "experimentValueName":"shouldBeShown",
+                         "experimentValueString":"String",
+                         "experimentValue":"false"
+                      }
+                      ]
+            }
+          ]
+          "defaultValues":[
+                    {
+                      "experimentValueName":"shouldBeShown",
+                      "experimentValueString":"String",
+                      "experimentValue":"true"
+                   }
+          ]
+    },
+   {
+      "experimentName":"ButtonTextExperiment",
+      "variants":[
+         {
+            "experimentVariantName":"A_EXPERIMENT",
+            "experimentVariantDescription":"a variant",
+            "experimentVariantConfigValue":"A",
+            "experimentValues":[
+            {
+               "experimentValueName":"getButtonColor",
+               "experimentValueString":"String",
+               "experimentValue":"#0000FF"
+            },
+            {
+               "experimentValueName":"getButtonText",
+               "experimentValueString":"String",
+               "experimentValue":"blue button"
+            }
+            ]
+         },
+         {
+            "experimentVariantName":"B_EXPERIMENT",
+            "experimentVariantDescription":"b variant",
+            "experimentVariantConfigValue":"B",
+            "experimentValues":[
+               {
+                  "experimentValueName":"getButtonColor",
+                  "experimentValueString":"String",
+                  "experimentValue":"#FF0000"
+               },
+               {
+                  "experimentValueName":"getButtonText",
+                  "experimentValueString":"String",
+                  "experimentValue":"green button"
+               }
+            ]
+         },
+         {
+            "experimentVariantName":"C_EXPERIMENT",
+            "experimentVariantDescription":"c variant",
+            "experimentVariantConfigValue":"C",
+            "experimentValues":[
+               {
+                  "experimentValueName":"getButtonColor",
+                  "experimentValueString":"String",
+                  "experimentValue":"#00FF00"
+               },
+               {
+                  "experimentValueName":"getButtonText",
+                  "experimentValueString":"String",
+                  "experimentValue":"red button"
+               }
+            ]
+         }
+      ],
+      "defaultValues":[
+         {
+            "experimentValueName":"getButtonColor",
+            "experimentValueString":"String",
+            "experimentValue":"#000000"
+         },
+         {
+            "experimentValueName":"getButtonText",
+            "experimentValueString":"String",
+            "experimentValue":"def button"
+         }
+      ]
+   }
+]
